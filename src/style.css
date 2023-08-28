@@ -1,0 +1,524 @@
+  .barrita{
+    background-color: white;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 100px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+  }
+
+.inicio{
+  margin-right: 200px;
+}
+
+.botonesinicio{
+  display: flex;
+  margin-left: 250px;
+}
+
+.signin{
+  height: 19px;
+}
+
+.nombres{
+  align-items: center;
+  font-size: 15px;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.nombresboton{
+  border: 1px solid #f53838;
+  border-radius: 20px;
+  align-items: center;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  width: 150px;
+  height: 45px;
+}
+
+.titulo{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+.logo{
+  width: 60px;
+}
+
+
+.card-group {
+  margin-left: 120px;
+  margin-right: 0px;
+  font-size: 40px;
+  padding-top: 150px;
+  display: flex;
+}
+
+.titulosabout{
+  margin-right: 80px;
+}
+
+.carduno {
+  font-size: 50px;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  line-height: 70px;
+  width: 555px;
+  height: 140px;
+}
+
+.carddos{
+  align-items: center;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  width: 555px;
+  height: 60px;
+}
+
+
+.getboton{
+  color: #fff;
+  background-color: #f53838;
+  border-radius: 10px;
+  box-shadow:  0px 5px 15px #f5383883;
+  text-align: center;
+  font-weight: 500;
+  width: 250px;
+  padding-top: 18px;
+  padding-right: 0px;
+  padding-bottom: 18px;
+  padding-left: 0px;
+  font-weight: 500px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.intro{
+  width: 611.24px;
+  height: 382.44px;
+}
+
+.rectangulo{
+  margin: 100px;
+  margin-left: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 1px 3px 10px rgba(136,136,136,.4);
+  width: 1140px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .rectangulo {
+      flex-flow:row nowrap
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .rectangulo {
+      justify-content:space-evenly
+  }
+}
+
+
+.informationcard{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 500px;
+  padding-top: 45px;
+}
+
+.infocard{
+  padding-left: 170px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  border-left: 2px #d3d3d3;
+}
+
+.iconos{
+  width: 55px;
+  display: inline;
+  align-items: center;
+}
+
+.numeros{
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Rubik', sans-serif;
+  display: inline;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.cardtextos{
+  font-size: 20px;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  padding-left: 20px;
+}
+
+.features{
+  display: flex;
+  align-items: center;
+  margin-left: 120px;
+}
+
+.featuresimg{
+  width: 508.12px;
+  height: 414.71px;
+  display: flex;
+  margin: 80px;
+}
+
+.featurestext{
+  width: 383.41px;
+  height: 100px;
+  padding: 0px;
+  font-size: 35px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.featuressubtext{
+  width: 427.88px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: 'Rubik', sans-serif;
+}
+
+.checkuno{
+  display: flex;
+}
+
+.check{
+  width: 24px;
+  height: 24px;
+}
+
+.textcheck{
+  display: flex;
+  padding-left: 15px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.cardpricing:hover{
+  border: 2px solid #f53838;
+}
+
+.pricingroup{
+  text-align: center;
+}
+
+.textpricing{
+  text-align: center;
+  padding-bottom: 20px; 
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+}
+
+.chose{
+  font-weight: bold;
+}
+
+.subchose{
+  font-size: 16px;
+}
+
+.boxpricing{
+  display: flex;
+  padding-left: 200px;
+}
+
+.sectionpricing{
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 40px;
+  width: 400px;
+}
+
+.cartaaaaa{
+  display: flex;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  width: 1500px;
+  height: 700px;
+  padding-left: 80px;
+}
+
+.cardpricing{
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  width: 300px;
+  padding-top: 50px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+.imgpricing{
+  width: 150px;
+}
+
+.itemspricing{
+  display: flex;
+  margin-left: 50px;
+}
+
+.box{
+  text-align: center;
+}
+
+.titlepricing{
+  font-weight: bold;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.imgitems{
+  width: 20px;
+  height: 14px;
+  display: flex;
+}
+
+.carapricing{
+  padding-left: 10px;
+}
+
+.preciomes{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.price{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.select{
+  width: 177.88px;
+  height: 45px;
+  border-radius: 20px;
+  border-width: 3px;
+  font-weight: bold;
+}
+
+.textglobal{
+  text-align: center;
+  padding-top: 50px;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+.subglobal{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 60px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.imgglobal{
+  padding-left: 150px;
+  align-items: center;
+}
+
+.imgmarcas{
+  padding-left: 20px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.todotestimonials{
+  padding-bottom: 60px;
+}
+
+.texttestimonials{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+  padding-top: 90px;
+}
+
+.texttestimonialss{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
+
+.subtexttestimonials{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.subtexttestimonialss{
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 60px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  width: 400px;
+  height: 230px;
+  margin-left: 100px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.embla__slide{
+  flex: 0 0 100%;
+  min-width: 0;
+  padding: 20px;
+  border: 2px solid #DDDDDD;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.embla__slide:hover {
+  border: 2px solid #f53838;
+}
+
+.embla__prev{
+  width: 45px;
+  height: 15px;
+  margin-left: 40px;
+  border-radius: 20px;
+  border: 2px solid #f53838;
+  background-color: #f53838;
+}
+
+.embla__next{
+  width: 15px;
+  height: 15px;
+  border-radius: 20px;
+  margin-left: 10px;
+  border: 2px solid #DDDDDD;
+}
+
+
+.imgtestimonials{
+  width: 50px;
+}
+
+.nombretestimonials{
+  display: inline;
+  align-items: center;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.ciudadtestimonials{
+  display: flex;
+  margin-left: 70px;
+  font-size: small;
+}
+
+.textotestimonials{
+  font-size: medium;
+}
+
+.todoformulario{
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 1px 3px 10px rgba(136,136,136,.4);
+  padding-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.textformulario{
+  padding-top: 80px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.formulario{
+  display: flex;
+  border-radius: 20px;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+
+.inputs{
+  border-radius: 20px;
+  border: 2px solid #d3d3d3;
+  text-align: center;
+  font-style: italic;
+}
+
+.inputtelefono{
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid #d3d3d3;
+  text-align: center;
+  font-style: italic;
+}
+
+.inputmensaje{
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid #d3d3d3;
+  font-style: italic;
+}
+
+.footer{
+  padding-top: 60px;
+  display: flex;
+}
+
+.infofooter{
+  margin: 30px;
+}
+
+.logofooter{
+  width: 149px;
+}
+
+.abajodelogofooter{
+  padding-top: 20px;
+  font-size: 15px;
+  font-family: 'Rubik', sans-serif;
+  width: 340px;
+  height: 61.57px;
+}
+
+.logosredesociales{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 33.6px;
+  height: 33.6px;
+  border-radius: 30px;
+  box-shadow: 1px 3px 10px rgba(136,136,136,.4);
+}
+
+.columnasfooter{
+  display: flex;
+  padding-left: 100px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.columnafooter{
+  padding-left: 170px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.titulosfooter{
+  font-weight: bold;
+  font-family: 'Rubik', sans-serif;
+}
